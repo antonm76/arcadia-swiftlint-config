@@ -68,7 +68,9 @@ disabled_rules:
   - todo
   - identifier_name
   - prohibited_interface_builder
-  - switch_case_alignment
+
+switch_case_alignment:
+    indented_cases: true
 
 function_body_length:
     warning: 50
