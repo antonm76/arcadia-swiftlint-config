@@ -72,6 +72,9 @@ disabled_rules:
 switch_case_alignment:
     indented_cases: true
 
+trailing_comma:
+    mandatory_comma: true
+
 function_body_length:
     warning: 50
     error: 80
